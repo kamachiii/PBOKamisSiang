@@ -21,10 +21,12 @@ com\kamachi\pbo\pert3\asdos\method\OlahNilai.class
 com\kamachi\pbo\pert6\dosen\abstrak\Hewan.class
 com\kamachi\pbo\pert3\asdos\array\HimpunanNilai.class
 com\kamachi\pbo\pert1\latihan1\BoxMasukan.class
+com\kamachi\pbo\pert6\dosen\abstrak\tugas\PersegiPanjang.class
 com\kamachi\pbo\pert3\dosen\method\OlahNilai.class
 com\kamachi\pbo\pert2\dosen\strukturKendali\Belanja.class
 com\kamachi\pbo\pert1\latihan1\HitungRataRata.class
 com\kamachi\pbo\pert6\dosen\abstrak\SuaraHewan.class
+com\kamachi\pbo\pert6\dosen\abstrak\tugas\SegiTiga.class
 com\kamachi\pbo\pert1\latihan1\Salam.class
 com\kamachi\pbo\pert2\dosen\tipeData\Var1.class
 com\kamachi\pbo\pert5\dosen\Person.class
@@ -43,6 +45,7 @@ com\kamachi\pbo\pert6\dosen\abstrak\Kucing.class
 com\kamachi\pbo\pert2\dosen\inputOutput\BacaTerminal.class
 com\kamachi\pbo\pert1\latihan1\Piramida.class
 com\kamachi\pbo\pert1\latihan1\Operasi1.class
+com\kamachi\pbo\pert6\dosen\abstrak\tugas\BujurSangkar.class
 com\kamachi\pbo\pert1\latihan1\NilaiHimpunan.class
 com\kamachi\pbo\pert5\dosen\CivitasKampus.class
 com\kamachi\pbo\pert6\dosen\abstrak\Kambing.class

@@ -19,11 +19,16 @@ public class SegiTiga extends Bentuk2D {
     
     @Override
     public double luasBidang() {
-        return 1/2 * this.alas * this.tinggi;
+        return 0.5 * this.alas * this.tinggi;
     }
     
     @Override
     public double kelilingBidang() {
         return this.alas + this.tinggi + this.sisi;
     }
+    
+    @Override
+    public String toString() {
+        return namaBentuk() + " alas " + this.alas + ", tinggi " + this.tinggi + ", dan " + this.sisi;
+    } 
 }
