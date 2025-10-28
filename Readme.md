@@ -20,19 +20,41 @@ Proyek latihan Pemrograman Berorientasi Objek (PBO) dengan struktur pertemuan (p
   (Ganti `<fully.qualified.MainClass>` dengan nama kelas yang berisi method main.)
 
 ## Struktur proyek (ringkasan)
-- src/
-  - main/
-   - java/
-    - com.kamachi.pbo
-      - pert1/latihan1
-      - pert2/dosen/{inputOutput,strukturKendali,tipeData}
-      - pert3/{asdos/{array,method},dosen/{array,method}}
-      - pert4/{asdos/oop,dosen/oop}
-      - pert5/dosen
-      - pert6/dosen/abstrak/tugas
-  - test/
-   - java/
-- target/ (hasil build)
+
+```
+src/
+├─ main/
+│  └─ java/
+│     └─ com.kamachi.pbo/
+│        ├─ pert1/
+│        │  └─ latihan1/
+│        ├─ pert2/
+│        │  └─ dosen/
+│        │     ├─ inputOutput/
+│        │     ├─ strukturKendali/
+│        │     └─ tipeData/
+│        ├─ pert3/
+│        │  ├─ asdos/
+│        │  │  ├─ array/
+│        │  │  └─ method/
+│        │  └─ dosen/
+│        │     ├─ array/
+│        │     └─ method/
+│        ├─ pert4/
+│        │  ├─ asdos/
+│        │  │  └─ oop/
+│        │  └─ dosen/
+│        │     └─ oop/
+│        ├─ pert5/
+│        │  └─ dosen/
+│        └─ pert6/
+│           └─ dosen/
+│              └─ abstrak/
+│                 └─ tugas/
+├─ test/
+│  └─ java/
+└─ target/  (hasil build)
+```
 
 ## Cara penggunaan
 - Cari kelas dengan `public static void main(String[] args)` untuk tiap latihan/pertemuan dan jalankan dari IDE.
