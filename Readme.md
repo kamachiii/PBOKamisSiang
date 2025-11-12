@@ -47,13 +47,19 @@ src/
 │        │     └─ oop/
 │        ├─ pert5/
 │        │  └─ dosen/
-│        └─ pert6/
-│           └─ dosen/
-│              └─ abstrak/
-│                 └─ tugas/
+│        ├─ pert6/
+│        │  └─ dosen/
+│        │     └─ abstrak/
+│        │        └─ tugas/
+│        └─ pert7
+│           └─ dosen
+│              └─ interfaces
+│                 ├─ alatmusik
+│                 ├─ assets
+│                 └─ konverterSuhu
 ├─ test/
 │  └─ java/
-└─ target/  (hasil build)
+└─ target/
 ```
 
 ## Cara penggunaan

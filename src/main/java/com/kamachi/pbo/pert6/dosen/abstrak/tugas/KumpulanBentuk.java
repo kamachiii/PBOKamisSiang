@@ -13,13 +13,13 @@ public class KumpulanBentuk {
         Bentuk2D b1 = new Lingkaran(8);
         Bentuk2D b2 = new Lingkaran(5);
         Bentuk2D b3 = new PersegiPanjang(5, 6);
-        Bentuk2D b4 = new BujurSangkar(4);
-        Bentuk2D b5 = new SegiTiga(5, 6, 7);
+        Bentuk2D b4 = new BujurSangkar(5);
+        Bentuk2D b5 = new SegiTiga(5, 6);
         
         Bentuk2D ar_bentuk[] = {b1, b2, b3, b4, b5};
         
         for(Bentuk2D b2d : ar_bentuk) {
-            System.out.println(b2d + " luasnya " + b2d.luasBidang());
+            System.out.println(b2d + " luasnya " + b2d.luasBidang() + " kelilingnya " + b2d.kelilingBidang());
         }
     }
 }

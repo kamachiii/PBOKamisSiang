@@ -22,7 +22,7 @@ public class PersegiPanjang extends Bentuk2D {
     
     @Override
     public double kelilingBidang() {
-        return 2 * (this.panjang * this.lebar);
+        return 2 * (this.panjang + this.lebar);
     }
     
     @Override

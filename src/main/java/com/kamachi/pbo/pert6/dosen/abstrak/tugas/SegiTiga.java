@@ -9,26 +9,26 @@ package com.kamachi.pbo.pert6.dosen.abstrak.tugas;
  * @author hengk
  */
 public class SegiTiga extends Bentuk2D {
-    double alas, tinggi, sisi;
+    double alas, tinggi, sisiMiring;
     
-    public SegiTiga(double alas, double tinggi, double sisi) {
+    public SegiTiga(double alas, double tinggi) {
         this.alas = alas;
         this.tinggi = tinggi;
-        this.sisi = sisi;
+        this.sisiMiring = Math.sqrt(Math.pow(alas, 2) + Math.pow(tinggi, 2));
     }
     
     @Override
     public double luasBidang() {
-        return 0.5 * this.alas * this.tinggi;
+        return 0.5f * this.alas * this.tinggi;
     }
     
     @Override
     public double kelilingBidang() {
-        return this.alas + this.tinggi + this.sisi;
+        return this.alas + this.tinggi + this.sisiMiring; //Segitiga Siku siku
     }
     
     @Override
     public String toString() {
-        return namaBentuk() + " alas " + this.alas + ", tinggi " + this.tinggi + ", dan " + this.sisi;
+        return namaBentuk() + " alas " + this.alas + ", tinggi " + this.tinggi + ", dan sisi miringnya " + this.sisiMiring;
     } 
 }
